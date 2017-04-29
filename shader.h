@@ -19,6 +19,8 @@ typedef struct {
 int load_file (char* name, char* buf);
 void shader_load (shader_t* s, char* vname, char* fname);
 GLuint create_uniform (shader_t* state, char* name);
+void showLog (GLint shader);
+void showprogramLog (GLint shader);
 
 #endif
 
